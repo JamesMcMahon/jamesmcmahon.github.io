@@ -1,0 +1,125 @@
+/* Hide all non-printable content */
+
+body > *:not(.print) {
+  display: none;
+}
+
+/* Resets, Clears & Defaults */
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+body, input, textarea {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  line-height: 1.3;
+  color: black;
+  background-color: white;
+  font-weight: 300;
+}
+h1, h2, h3, p {
+  margin: 0 0 5px 0;
+  position: relative;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 14px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* End Resets, Clears & Defaults */
+
+.resume aside {
+  display: none;
+}
+.resume h1 {
+  display: none;
+}
+.resume-header {
+  font-size: 16px;
+  border-bottom: 1px solid black;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.resume-header .website {
+  float: right;
+}
+.resume .jobs {
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+.resume .jobs h2 {
+  border-bottom: 1px solid black;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+.resume .jobs>ul {
+  padding-left: 5px;
+  display: block;
+  margin-top: 8px;
+}
+.resume .jobs ul li h3 {
+  margin-top: 8px;
+}
+.resume .jobs ul li h3 .tenure {
+  position: absolute;
+  width: 100%;
+  text-align: right;
+}
+.resume .jobs p {
+  margin-bottom: 2px;
+}
+.resume .jobs ul ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+.resume .skills {
+  float: left;
+}
+.resume .skills .skills-section {
+  float: left;
+  width: 50%;
+}
+.resume .skills h2 {
+  border-bottom: 1px solid black;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+.resume .skills h3 {
+  margin-bottom: 0;
+}
+.resume .skills ul {
+  margin-top: 0px;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+.resume .skills ul li {
+  display: inline-block;
+}
+.resume .skills ul li:after {
+  content: ",";
+}
+.resume .skills ul li:last-child:after {
+  content: "";
+}
+.resume .education {
+  float: right;
+}
+.resume .education h2 {
+  border-bottom: 1px solid black;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}

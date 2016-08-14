@@ -1,0 +1,551 @@
+/* Resets, Clears & Defaults */
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+body, input, textarea {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #475151;
+  background-color: #fdf6e3;
+  font-weight: 300;
+}
+input:focus, textarea:focus {
+  outline: 0;
+}
+h1, h2, h3, p {
+  margin: 0 0 20px 0;
+  position: relative;
+  z-index: 6;
+}
+h1 {
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+a {
+  color: #b58900;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+}
+::selection {
+  /* WebKit/Blink Browsers */
+  background: #eee;
+}
+::-moz-selection {
+  /* Gecko Browsers */
+  background: #eee;
+}
+
+/* End Resets, Clears & Defaults */
+
+video {
+  z-index: 8;
+  position: relative;
+}
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section {
+  padding: 100px 20px;
+}
+.print-only {
+  display: none;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 200ms;
+  background: transparent;
+  cursor: pointer;
+}
+.btn:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn.yellow {
+  color: #b58900;
+  border: 1px solid #b58900;
+}
+.btn.yellow:hover {
+  background: rgba(181, 137, 5, 0.1);
+}
+.btn.smaller {
+  padding: 10px 25px;
+}
+.btn.smallest {
+  padding: 10px 18px;
+}
+.btn .fa {
+  margin-left: 10px;
+}
+header {
+  background: #001f27;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+}
+header .logo {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  padding: 13px 0;
+  color: #2aa198;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+}
+header .logo .fa {
+  font-size: 16px;
+  position: relative;
+  top: -1px;
+  margin-right: 10px;
+}
+header nav {
+  float: right;
+}
+header nav ul {
+  padding: 0;
+  margin: 0;
+}
+header nav ul li {
+  display: inline-block;
+  float: left;
+}
+header nav ul li a {
+  display: inline-block;
+  padding: 15px 20px;
+  color: white;
+  transition: 200ms;
+}
+header nav ul li a:hover, header nav ul li a.active {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+header .toggle-menu {
+  display: none;
+}
+.darkbg {
+  background: #002b36;
+  color: #b3bdbd;
+}
+.darkbg .h1 {
+  color: #eee8d5;
+}
+.splash {
+  background: no-repeat center right fixed url(images/splash.jpg);
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.splash .container {
+  position: relative;
+  top: 48%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+.splash h2 {
+  margin-bottom: 40px;
+}
+.splash .overlay {
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.60;
+  z-index: 2;
+}
+.splash .container .button-bar ul {
+  padding: 5px 0 0 0;
+  margin: 0;
+  display: inline-block;
+}
+.splash .container .button-bar ul li {
+  display: inline-block;
+  float: left;
+}
+.splash .container .button-bar ul li a {
+  font-size: 25px;
+  padding: 15px 10px;
+  color: #fff;
+}
+.splash .container .button-bar ul li a:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+.splash .container .button-bar .right {
+  float: right;
+  padding-right: 5px;
+}
+.opensource {
+  position: relative;
+  overflow: hidden;
+}
+.opensource .content {
+  width: 70%;
+  float: right;
+}
+.opensource ul li {
+  display: block;
+}
+.opensource .projects ul {
+  margin: 0;
+  padding: 0;
+}
+.opensource .projects ul li {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+.opensource .projects ul li h3 {
+  margin: 0 0 5px 0;
+}
+.opensource .projects ul li p {
+  overflow: hidden;
+}
+.opensource .links ul li a {
+  text-decoration: none;
+}
+.opensource .links ul li a:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+.opensource .links ul li a::before {
+  padding-right: 10px;
+}
+.opensource .container::after {
+  content: "\f126";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 400px;
+  color: #eee8d5;
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.games {
+  position: relative;
+  overflow: hidden;
+}
+.games .entry div.main {
+  padding: 60px 40px;
+}
+.games .entry div.offset {
+  padding: 60px 40px;
+}
+.games .entry:nth-of-type(2n+1) div.main {
+  float: left;
+  width: 60%;
+}
+.games .entry:nth-of-type(2n+1) div.offset {
+  float: left;
+  width: 40%;
+}
+.games .entry:nth-of-type(2n) div.main {
+  width: 40%;
+  float: right;
+}
+.games .entry:nth-of-type(2n) div.offset {
+  width: 60%;
+  float: right;
+}
+.games .container::after {
+  content: "\f11b";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 400px;
+  color: #073642;
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+.resume h2 {
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid black;
+}
+.resume .print-aside {
+  padding-bottom: 20px;
+}
+.resume .print-aside .text {
+  float: left;
+  width: 90%;
+}
+.resume .print-aside .icon {
+  float: left;
+  width: 10%;
+}
+.resume .print-aside .icon i {
+  display: inline;
+}
+.resume .print-aside:after {
+  clear: both;
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.resume .jobs {
+  border-bottom: 1px solid black;
+  padding-bottom: 50px;
+}
+.resume .jobs h3 {
+  margin-top: 20px;
+}
+.resume .jobs p {
+  padding: 0;
+  margin: 0;
+}
+.resume .jobs>ul {
+  position: relative;
+  margin: 0 0 0 140px;
+}
+.resume .jobs>ul:before {
+  background: #93a1a1;
+  bottom: 0;
+  content: '';
+  left: 24px;
+  position: absolute;
+  top: 15px;
+  width: 1px;
+}
+.resume .jobs ul li h3 .tenure {
+  position: absolute;
+  left: -104%;
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+}
+.resume .jobs ul ul {
+  padding: 0;
+  margin: 10px 0 0 40px;
+}
+.resume .skills {
+  float: left;
+}
+.resume .skills h3 {
+  margin-bottom: 0;
+}
+.resume .skills ul {
+  margin-top: 0px;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+.resume .skills ul li {
+  display: inline-block;
+}
+.resume .skills ul li:after {
+  content: ",";
+}
+.resume .skills ul li:last-child:after {
+  content: "";
+}
+.resume .education {
+  float: right;
+}
+footer {
+  background: #001f27;
+  color: white;
+  padding: 0 20px;
+}
+footer .copyright {
+  float: left;
+  padding: 15px 0;
+}
+footer .copyright p {
+  margin: 0;
+}
+footer .github {
+  float: right;
+  padding: 15px 0;
+}
+footer .github a::before {
+  padding-right: 10px;
+}
+@media (max-width: 960px) {
+  .games .entry:nth-of-type(2n+1) div.main {
+    float: none;
+    width: 100%;
+  }
+  .games .entry:nth-of-type(2n+1) div.offset {
+    float: none;
+    width: 100%;
+  }
+  .games .entry:nth-of-type(2n) div.main {
+    float: none;
+    width: 100%;
+  }
+  .games .entry:nth-of-type(2n) div.offset {
+    float: none;
+    width: 100%;
+  }
+  .games .container::after {
+    right: -5%;
+  }
+}
+@media (max-width: 800px) {
+  section {
+    padding: 80px 10px;
+  }
+  header, footer {
+    padding: 0 10px;
+  }
+  header nav ul li a {
+    padding: 15px;
+  }
+  .splash {
+    height: auto;
+    padding: 150px 10px 80px 10px;
+    text-align: center;
+  }
+  .splash .container {
+    position: relative;
+    top: 0;
+    transform: none;
+  }
+  .opensource .content {
+    width: 75%;
+    float: right;
+  }
+  .opensource .container::after {
+    left: -5%;
+  }
+  .resume .jobs>ul {
+    margin-left: 100px;
+  }
+  .resume .print-aside .text {
+    float: none;
+  }
+  .resume .print-aside .icon {
+    margin-top: 10px;
+    float: none;
+  }
+}
+@media (max-width: 700px) {
+  .resume .skills {
+    float: none;
+  }
+  .resume .education {
+    float: none;
+  }
+}
+@media (max-width: 600px) {
+  section {
+    padding: 40px 10px;
+  }
+  header nav {
+    float: none;
+    position: fixed;
+    top: 56px;
+    left: -300px;
+    bottom: 0;
+    width: 100%;
+    max-width: 300px;
+    background: #001f27;
+    transition: 200ms;
+  }
+  header nav.visible {
+    left: 0px;
+  }
+  header nav ul li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  header nav ul li a {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  header .toggle-menu {
+    display: block;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    font-size: 28px;
+  }
+  .splash {
+    padding: 100px 10px 40px 10px;
+  }
+  .opensource .content {
+    width: 100%;
+    float: none;
+  }
+  .opensource .container::after {
+    display: none;
+  }
+  .games .entry:nth-of-type(2n+1) div.offset {
+    display: none;
+  }
+  .games .entry:nth-of-type(2n) div.offset {
+    display: none;
+  }
+  .games .container::after {
+    display: none;
+  }
+  .resume .jobs>ul {
+    margin-left: -30px;
+  }
+  .resume .jobs>ul:before {
+    display: none;
+  }
+  .resume .jobs>ul>li {
+    display: block;
+  }
+  .resume .jobs ul li h3 .tenure {
+    display: block;
+    position: static;
+    text-align: left;
+  }
+  .resume .jobs ul ul {
+    margin-left: 30px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .copyright, footer .github {
+    float: none;
+  }
+}
