@@ -31,7 +31,7 @@ I joined Skillz pre-launch as the fifth engineer and was a crucial part of build
 Platform Developer at Selventa (2010 to 2013)
 Stack / Tools: Java, Javascript, Python, Spring, JPA, MySQL, Mongo, SVN, Git, Tomcat, JSF, ExtJS
 Worked with a team of developers to enhance and develop a biological data analysis platform for major pharmaceutical companies and in-house researchers.
-Duties evolved from enhancements of previous platform to leading front end development new platform and working on the then nascent Linux Foundation backed OpenBel (http://openbel.org/) project.
+Duties evolved from enhancements of previous platform to leading front end development new platform and working on the then nascent Linux Foundation backed OpenBEL (http://openbel.org/) project.
     - Helmed creation of new platform front end, from usability surveys and prototyping to development of rich MVC front end in Javascript.
     - Collaborated with backend developers to design REST API for new platform.
     - Developed open source Swing based tool for OpenBEL network visualization and analysis. (https://github.com/OpenBEL/cytoscape-plugins)
@@ -40,7 +40,7 @@ Duties evolved from enhancements of previous platform to leading front end devel
 
 Software Developer at Boston Financial Data Systems (2007 to 2010)
 Stack / Tools: Java, Microsoft SQL Server, JSP, SVN, Tomcat, Spring MVC
-Worked across departments to build custom Java based solutions that solved a diverse set of problems.
+Collaborated across departments to build custom Java based solutions that solved a diverse set of problems.
     - Independently took Java based projects from start to completion; from requirement gathering, to database design all the way to front end.
     - Pushed to modernize development tools and practices, helped move team to SVN, Tomcat, and Java 6.
     - Introduced new techniques and frameworks to development team, including Hibernate and Spring MVC.
