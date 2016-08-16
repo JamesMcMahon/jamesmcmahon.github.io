@@ -22,9 +22,13 @@ $(document).ready(function() {
   });
 
   var orgBackgroundColor = $('header').css('background-color');
+  var orgLogoDisplay = $('header .logo').css('display');
   if ($(window).width() > 600) {
     $('header').css({
       'background': 'none'
+    });
+    $('header .logo').css({
+        'display': 'none'
     });
   }
   $(document).scroll(function() {
@@ -32,9 +36,15 @@ $(document).ready(function() {
       $('header').css({
         'background': $(this).scrollTop() > 100 ? orgBackgroundColor : 'none'
       });
+      $('header .logo').css({
+          'display': $(this).scrollTop() > 100 ? orgLogoDisplay : 'none'
+      });
     } else {
       $('header').css({
         'background': orgBackgroundColor
+      });
+      $('header .logo').css({
+          'display': orgLogoDisplay
       });
     }
   });
