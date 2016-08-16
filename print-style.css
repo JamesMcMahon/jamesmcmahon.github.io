@@ -86,34 +86,13 @@ a {
   list-style-type: disc;
   padding-left: 25px;
 }
-.resume .skills {
+.resume .references {
   float: left;
 }
-.resume .skills .skills-section {
-  float: left;
-  width: 50%;
-}
-.resume .skills h2 {
+.resume .references h2 {
   border-bottom: 1px solid black;
   margin-top: 2px;
   margin-bottom: 8px;
-}
-.resume .skills h3 {
-  margin-bottom: 0;
-}
-.resume .skills ul {
-  margin-top: 0px;
-  padding-left: 0;
-  margin-bottom: 10px;
-}
-.resume .skills ul li {
-  display: inline-block;
-}
-.resume .skills ul li:after {
-  content: ",";
-}
-.resume .skills ul li:last-child:after {
-  content: "";
 }
 .resume .education {
   float: right;

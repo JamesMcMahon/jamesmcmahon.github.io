@@ -361,25 +361,8 @@ header .toggle-menu {
   padding: 0;
   margin: 10px 0 0 40px;
 }
-.resume .skills {
+.resume .references {
   float: left;
-}
-.resume .skills h3 {
-  margin-bottom: 0;
-}
-.resume .skills ul {
-  margin-top: 0px;
-  padding-left: 0;
-  margin-bottom: 10px;
-}
-.resume .skills ul li {
-  display: inline-block;
-}
-.resume .skills ul li:after {
-  content: ",";
-}
-.resume .skills ul li:last-child:after {
-  content: "";
 }
 .resume .education {
   float: right;
@@ -463,7 +446,7 @@ footer .github a::before {
   }
 }
 @media (max-width: 700px) {
-  .resume .skills {
+  .resume .references {
     float: none;
   }
   .resume .education {
