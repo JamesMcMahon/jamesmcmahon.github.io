@@ -16,6 +16,10 @@ body, input, textarea {
 input:focus, textarea:focus {
   outline: 0;
 }
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
 h1, h2, h3, p {
   margin: 0 0 20px 0;
   position: relative;
@@ -33,7 +37,7 @@ h2 {
 }
 h3 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 h4 {
   font-size: 14px;
@@ -181,6 +185,9 @@ header .toggle-menu {
 }
 .splash h2 {
   margin-bottom: 40px;
+}
+h2.headline {
+  font-family: 'Open Sans', sans-serif;
 }
 .splash .overlay {
   background-color: black;

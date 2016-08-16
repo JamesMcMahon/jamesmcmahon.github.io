@@ -19,6 +19,10 @@ body, input, textarea {
   background-color: white;
   font-weight: 300;
 }
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
 h1, h2, h3, p {
   margin: 0 0 5px 0;
   position: relative;
@@ -33,7 +37,7 @@ h2 {
 }
 h3 {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
 }
 a {
   color: black;
