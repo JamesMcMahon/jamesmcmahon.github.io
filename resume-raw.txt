@@ -19,8 +19,7 @@ Took over customer facing integrations role and worked with the business stakeho
 
 Full Stack Engineer at Skillz (2013 - 2014)
 Stack / Tools: Groovy, Ruby, Rails, Grails, MySQL, Mongo, Git
-Skillz is a tournament system and monetization platform for mobile games.
-I joined Skillz pre-launch as the fifth engineer and was a crucial part of building out core technology for launch and subsequent funding rounds.
+Joined Skillz pre-launch as the fifth engineer and was a crucial part of building out core technology for launch and subsequent funding rounds.
     - Backend engineer for central Grails based tournament system.
     - Scaled server code and infrastructure to handle growing customer base.
     - Lead engineer for customer facing web applications written in Grails and Rails.

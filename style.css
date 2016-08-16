@@ -35,6 +35,9 @@ h3 {
   font-size: 20px;
   font-weight: 600;
 }
+h4 {
+  font-size: 14px;
+}
 a {
   color: #b58900;
   text-decoration: none;
@@ -332,6 +335,15 @@ header .toggle-menu {
 }
 .resume .jobs h3 {
   margin-top: 20px;
+  margin-bottom: 0px;
+}
+.resume .jobs h4 {
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.resume .jobs h4.stack {
+  margin-bottom: 15px;
 }
 .resume .jobs p {
   padding: 0;

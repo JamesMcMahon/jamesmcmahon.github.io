@@ -61,6 +61,18 @@ a {
   border-bottom: 1px solid black;
   margin-bottom: 5px;
 }
+.resume .jobs h3 {
+  margin-bottom: 0px;
+}
+.resume .jobs h4 {
+  color: gray;
+  -webkit-print-color-adjust: exact;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.resume .jobs h4.stack {
+  margin-bottom: 5px;
+}
 .resume .jobs h2 {
   border-bottom: 1px solid black;
   margin-top: 2px;
