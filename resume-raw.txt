@@ -39,8 +39,8 @@ Duties evolved from enhancements of previous platform to leading front end devel
 
 Software Developer at Boston Financial Data Systems (2007 to 2010)
 Stack / Tools: Java, Microsoft SQL Server, JSP, SVN, Tomcat, Spring MVC
-Collaborated across departments to build custom Java based solutions that solved a diverse set of problems.
-    - Independently took Java based projects from start to completion; from requirement gathering, to database design all the way to front end.
+Collaborated across departments to build custom solutions that solved a diverse set of problems.
+    - Independently took projects from start to completion; from requirement gathering, to database design all the way to front end.
     - Pushed to modernize development tools and practices, helped move team to SVN, Tomcat, and Java 6.
     - Introduced new techniques and frameworks to development team, including Hibernate and Spring MVC.
     - Improved throughput on legacy processes by building performant multithreaded applications.
