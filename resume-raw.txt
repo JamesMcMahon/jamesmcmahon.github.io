@@ -12,7 +12,7 @@ Took over customer facing integrations role and worked with the business stakeho
     - Lead technical contact for business critical partners and customers.
     - Worked with large game publishers, including Glu and Zynga, to get them integrated and launched.
     - Took large Zynga Backbreaker 2 codebase in-house; integrated Skillz and developed new competitive play modes.
-    - Established customer facing business processes, ranging from support escalation, to Zendesk SLAs.
+    - Established customer facing business processes, ranging from support escalation to Zendesk SLAs.
     - Managed a co-op; set and reviewed goals / performance and delegated tasks.
     - Improved integration process and APIs.
     - Responsible for shipping numerous games on the Skillz platform. See LinkedIn profile for a partial list.
