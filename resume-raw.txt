@@ -30,20 +30,12 @@ Lead teams of Pivotal / client developers to build business-critical products us
 Indie Game Developer at Lucid Dream Party (2015 - Present)
 Stack / Tools: C#, Unity
 Developed and released an original multi-platform mobile game, I, Falling Robot. (ifallingrobot.com)
-    - Took several ideas to the prototype stage before deciding to develop I, Falling Robot fully.
-    - Explored and ultimately used an Entity Component System architecture to keep code testable and flexible.
-    - Extensively unit tested game code to ensure a high-quality release.
-    - Worked with a contract artist to develop a unique art style for the game.
 
 Senior Integrations Engineer at Skillz (2014 - 2015)
 Stack / Tools: Ruby, Objective C, C#, C++, Java, Unity
 Took over customer-facing integrations role and worked with the business stakeholders to improve and launch games on the Skillz platform.
     - Lead technical contact for business-critical partners and customers.
     - Worked with large game publishers, including Glu and Zynga, to get them integrated and launched.
-    - Took large Zynga Backbreaker 2 codebase in-house; integrated Skillz and developed new competitive play modes.
-    - Established customer-facing business processes, ranging from support escalation to Zendesk SLAs.
-    - Managed a co-op; set and reviewed goals/performance and delegated tasks.
-    - Improved integration process and APIs.
     - Responsible for shipping numerous games on the Skillz platform. See LinkedIn profile for a partial list.
 
 Full Stack Engineer at Skillz (2013 - 2014)
@@ -51,31 +43,13 @@ Stack / Tools: Groovy, Ruby, Rails, Grails, MySQL, Mongo, Git
 Joined Skillz pre-launch as the fifth engineer and played a crucial part in building out core technology for launch and subsequent funding rounds.
     - Backend engineer for central Grails based tournament system.
     - Scaled server code and infrastructure to handle growing customer base.
-    - Lead engineer for customer-facing web applications written in Grails and Rails.
     - Established AWS based servers and initial operations infrastructure.
-    - Designed initial analytics for business intelligence.
-    - Onboarded and mentored new hires as the company scaled.
 
 Platform Developer at Selventa (2010 to 2013)
 Stack / Tools: Java, Javascript, Python, Spring, JPA, MySQL, Mongo, SVN, Git, Tomcat, JSF, ExtJS
 Worked with a team of developers to enhance and develop a biological data analysis platform for major pharmaceutical companies and in-house researchers.
 Duties evolved from enhancements of the previous platform to leading development on a new platform, and working on the Linux Foundation backed OpenBEL (http://openbel.org/) project.
-    - Helmed creation of new platform front end, from usability surveys and prototyping to development of rich MVC front end in Javascript.
-    - Collaborated with backend developers to design REST API for the new platform.
-    - Developed an open-source Swing-based tool for OpenBEL network visualization and analysis. (https://github.com/OpenBEL/cytoscape-plugins)
-    - Built MVC backend for network analysis suite and created detailed specs for remote front end contractors.
-    - Designed and implemented user-facing features and tools from front to back.
 
 Software Developer at Boston Financial Data Systems (2007 to 2010)
 Stack / Tools: Java, Microsoft SQL Server, JSP, SVN, Tomcat, Spring MVC
 Collaborated across departments to build custom solutions that solved a diverse set of problems.
-    - Independently took projects from start to completion, from requirements gathering, to database design, all the way to the front-end.
-    - Pushed to modernize development tools and practices, helped move the team to SVN, Tomcat, and Java 6.
-    - Introduced new techniques and frameworks to the development team, including Hibernate and Spring MVC.
-    - Improved throughput on legacy processes by building performant multithreaded applications.
-
-Student Developer at Bridgewater State Geographics Lab (2006 to 2007)
-Stack / Tools: C#, Microsoft SQL Server
-Worked with a student team on federally funded transportation research.
-    - Independently developed open-source software for national highway safety project.
-    - Optimized SQL queries to provide real-time analysis of large GIS datasets.
