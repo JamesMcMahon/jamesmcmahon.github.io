@@ -1,3 +1,7 @@
++++
+title = 'Resume'
++++
+
 # Consulting Software Developer at Focused Labs (2019 - 2021)
 **Stack / Tools:** Typescript, Kotlin, Spring Boot, Firebase, Vue.js, React, Kubernetes, CDK
 First engineer at boutique software consultancy.
