@@ -9,6 +9,7 @@
 </div>
 
 <div class="card">
+    <h2>Posts</h2>
     {{ $posts := where .Site.RegularPages "Section" "blog" }}
     {{ if $posts }}
         <ul>
