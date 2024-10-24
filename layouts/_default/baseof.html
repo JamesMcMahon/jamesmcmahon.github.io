@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>{{ .Title }}</title>
-    {{ $minifiedCSS := (resources.Get "css/main.css" | resources.Minify) }}
+    {{ $reset := resources.Get "css/reset.css" }}
+    {{ $main := resources.Get "css/main.css" }}
+    {{ $minifiedCSS := slice $reset $main | resources.Concat "css/main.css" | resources.Minify | fingerprint }}
     {{ if .Site.Params.inlineCSS }}
         <style>{{ $minifiedCSS.Content | safeCSS }}</style>
     {{ else }}
