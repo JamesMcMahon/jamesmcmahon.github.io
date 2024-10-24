@@ -2,34 +2,27 @@
 body {
   font-family: serif;
   background-color: #faf7f5;
-  color: #5d4037;
-}
 
-.container {
-  max-width: 42rem;
+  max-width: 60rem;
   margin: 0 auto;
   padding: 1rem;
 }
 
 header {
   text-align: center;
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   position: relative;
 }
 
 .logo {
-  position: absolute;
-  left: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
   width: 4rem;
   height: 4rem;
+  margin: 0 auto;
 }
 
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
   color: #1D3557;
 }
 
@@ -52,6 +45,16 @@ nav a {
 }
 
 nav a:hover {
+  color: #E63946;
+}
+
+a {
+  color: #5d4037;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
   color: #E63946;
 }
 
@@ -80,16 +83,6 @@ nav a:hover {
 .card ul {
   list-style-type: disc;
   padding-left: 1.5rem;
-}
-
-a {
-  color: #5d4037;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: #E63946;
 }
 
 /* Dark Theme */
