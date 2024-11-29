@@ -1,4 +1,4 @@
-baseURL = 'https://jamesmcmahon.net/'
+baseURL = 'https://jfm.sh/'
 languageCode = 'en-us'
 title = "James McMahon's Website"
 disableKinds = ["taxonomy", "term"]
