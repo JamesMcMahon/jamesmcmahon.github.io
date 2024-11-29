@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="card">
+    <h2>Hi! 👋</h2>
+    <p>Welcome to my personal website. I plan to use this space to blog about whatever strikes my interest.</p>
+    <div class="social-links">
+        <a href="https://github.com/JamesMcMahon/">
+            {{ partial "icons/github" }}
+        </a>
+        <a href="https://www.linkedin.com/in/james-mcmahon">
+            {{ partial "icons/linkedin" }}
+        </a>
+        <a href="https://stackoverflow.com/users/20774/">
+            {{ partial "icons/file-stack" }}
+        </a>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Posts</h2>
+    {{ $posts := where .Site.RegularPages "Section" "blog" }}
+    {{ if $posts }}
+        <div class="posts">
+            <ul>
+                {{ range $posts }}
+                <li>
+                    <a href="{{ .RelPermalink }}">
+                        {{ .Title }} {{ partial "icons/arrow" }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    {{ else }}
+        <p>Content coming soon.</p>
+    {{ end }}
+    <div class="posts-note">
+        Previous posts can be found on <a href="https://dev.to/jamesmcmahon">dev.to</a>.
+    </div>
+</div>
+{{ end }}

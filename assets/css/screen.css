@@ -1,0 +1,274 @@
+:root {
+    /* Light theme variables */
+    --bg-color: #faf7f5;
+    --text-color: #5d4037;
+    --heading-color: #1D3557;
+    --card-heading-color: #5d4037;
+    --subheading-color: #457B9D;
+    --card-bg: #ffffff;
+    --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --link-color: #2A9D8F;
+    --link-hover-color: #E63946;
+    --accent-color: #2A9D8F;
+    --logo-color-1: #E63946;
+    --logo-color-2: #2A9D8F;
+    --logo-color-3: #E9C46A;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark theme variables */
+        --bg-color: #121212;
+        --text-color: #e0e0e0;
+        --heading-color: #bb86fc;
+        --card-heading-color: #bb86fc;
+        --subheading-color: #03dac6;
+        --card-bg: #1e1e1e;
+        --card-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+        --link-color: #cf6679;
+        --link-hover-color: #03dac6;
+        --accent-color: #cf6679;
+        --logo-color-1: #bb86fc;
+        --logo-color-2: #03dac6;
+        --logo-color-3: #cf6679;
+    }
+}
+
+/* Base styles */
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 0 1rem 4rem 1rem;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 11%;
+    width: 64px;
+    height: 64px;
+}
+
+.logo rect:nth-child(1) {
+    fill: var(--logo-color-1);
+}
+
+.logo rect:nth-child(2) {
+    fill: var(--logo-color-2);
+}
+
+.logo rect:nth-child(3) {
+    fill: var(--logo-color-3);
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: var(--heading-color);
+}
+
+.header-line {
+    width: 50px;
+    height: 2px;
+    background-color: var(--subheading-color);
+    margin: 0.75rem auto;
+}
+
+.site-url {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Card styles */
+.card {
+    background-color: var(--card-bg);
+    border-radius: 0.5rem;
+    box-shadow: var(--card-shadow);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--card-heading-color);
+}
+
+.card h3, .card h4 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--card-heading-color);
+}
+
+.card ul {
+    padding-left: 1.5rem;
+}
+
+/* Link styles */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Social links */
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: var(--text-color);
+}
+
+.social-links a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Post date */
+.post-date {
+    font-size: 0.875rem;
+    color: var(--subheading-color);
+    margin-bottom: 1rem;
+}
+
+/* Recent posts list */
+.posts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.posts li {
+    margin-bottom: 0.5rem;
+}
+
+.posts a {
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+}
+
+.posts a:hover {
+    color: var(--link-hover-color);
+}
+
+.posts-note {
+    margin-top: 1rem;
+}
+
+.experience h1 {
+    color: var(--accent-color);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.experience h2 {
+    color: var(--subheading-color);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0;
+}
+
+.experience h3, .experience h4 {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0;
+}
+
+.experience p {
+    margin-top: 0.5rem;
+}
+
+.experience ul {
+    margin: 0.5rem;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.resume-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.resume-footer div {
+    flex: 1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .logo {
+        position: static;
+        margin: 0 auto 1rem;
+    }
+
+    .container {
+        padding: 0.5rem;
+    }
+
+    header {
+        padding: 0 0.5rem 2rem 0.5rem;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .resume-footer {
+        display: block;
+    }
+}
+
+/* Focus styles for keyboard navigation */
+a:focus,
+button:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}

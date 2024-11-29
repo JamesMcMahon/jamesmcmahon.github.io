@@ -1,0 +1,18 @@
+baseURL = 'https://jamesmcmahon.net/'
+languageCode = 'en-us'
+title = "James McMahon's Website"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+    inlineCSS = true
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Resume"
+        url = "/resume/"
+        weight = 2
