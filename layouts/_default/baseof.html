@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    {{ if .Description }}
+        <meta name="description" content="{{ .Description }}">
+    {{ else if .IsPage }}
+        <meta name="description" content="{{ .Summary | plainify }}">
+    {{ else }}
+        <meta name="description" content="James McMahon's website: staff engineer specializing in XP practices, TDD, and lean product for efficient software delivery and team leadership.">
+    {{ end }}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
     {{ $reset := resources.Get "css/reset.css" }}
