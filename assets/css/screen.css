@@ -63,15 +63,15 @@ header {
     height: 64px;
 }
 
-.logo rect:nth-child(1) {
+.logo rect:nth-child(2) {
     fill: var(--logo-color-1);
 }
 
-.logo rect:nth-child(2) {
+.logo rect:nth-child(3) {
     fill: var(--logo-color-2);
 }
 
-.logo rect:nth-child(3) {
+.logo rect:nth-child(4) {
     fill: var(--logo-color-3);
 }
 
