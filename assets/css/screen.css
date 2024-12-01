@@ -18,12 +18,12 @@
 @media (prefers-color-scheme: dark) {
     :root {
         /* Dark theme variables */
-        --bg-color: #121212;
+        --bg-color: black;
         --text-color: #e0e0e0;
         --heading-color: #bb86fc;
         --card-heading-color: #bb86fc;
         --subheading-color: #03dac6;
-        --card-bg: #1e1e1e;
+        --card-bg: #181818;
         --card-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
         --link-color: #cf6679;
         --link-hover-color: #03dac6;
