@@ -12,7 +12,9 @@
                     {{- with .tenure }}
                         <h5>{{ .start }} - {{ .close }}</h5>
                     {{- end }}
-                    {{ partial "functions/fixed-markdownify" .description | safeHTML }}
+                        <div{{ with .truncatable}} class="truncatable"{{ end }}>
+                            {{ partial "functions/fixed-markdownify" .description | safeHTML }}
+                        </div>
                 {{- end }}
             {{- end }}
         </div>

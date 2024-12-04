@@ -104,6 +104,7 @@ stack="Java, Javascript, Python, Spring, JPA, MySQL, Mongo, SVN, Git, Tomcat, JS
 title="Platform Developer"
 tenure.start="2010"
 tenure.close="2013"
+truncatable=true
 description="""
 Enhanced and developed a biological data analysis platform for major pharmaceutical companies and in-house researchers.
 Led front-end development on a new platform.
@@ -118,6 +119,7 @@ stack="Java, Microsoft SQL Server, JSP, SVN, Tomcat, Spring MVC"
 title="Software Developer"
 tenure.start="2007"
 tenure.close="2010"
+truncatable=true
 description="""
 Collaborated across departments to design and deliver solutions, independently conducting user research, defining
 requirements, and scoping projects.
