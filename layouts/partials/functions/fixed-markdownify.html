@@ -1,0 +1,17 @@
+{{/*
+Workaround for inconsistant behaviors in Hugo's markdownify function.
+Specifically <p> not being added to single content lines.
+
+See
+- https://github.com/gohugoio/hugo/issues/3040
+- https://discourse.gohugo.io/t/markdownify-dosnt-add-paragraph-html-tag-on-string-input/18592
+- https://discourse.gohugo.io/t/markdownify-and-paragraphs/15883
+*/}}
+
+{{- $markdown := . | markdownify -}}
+
+{{ if not ( findRE "<[h|p][^>]*>" $markdown ) }}
+    <p>{{ $markdown }}</p>
+{{ else }}
+    {{ $markdown }}
+{{ end }}

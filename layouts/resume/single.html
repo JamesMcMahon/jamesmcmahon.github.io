@@ -12,7 +12,7 @@
                     {{- with .tenure }}
                         <h5>{{ .start }} - {{ .close }}</h5>
                     {{- end }}
-                    {{ .description | markdownify | safeHTML }}
+                    {{ partial "functions/fixed-markdownify" .description | safeHTML }}
                 {{- end }}
             {{- end }}
         </div>
