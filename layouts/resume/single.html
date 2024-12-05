@@ -1,6 +1,13 @@
 {{ define "main" }}
 <article>
     <div class="card">
+        <h2>Summary</h2>
+        <div class="summary">
+            {{ .Content }}
+        </div>
+    </div>
+
+    <div class="card">
         <h2>Experience</h2>
         <div class="experience">
             {{- range site.Data.experience.companies }}
