@@ -75,7 +75,7 @@ Developed and released an original multi-platform mobile game, [I, Falling Robot
 name="Skillz"
 link="http://skillz.com/"
 description="Tournaments and Monetization Platform for Mobile Games Startup"
-stack="Groovy, Ruby, Rails, Grails, MySQL, Mongo, Git, Objective-C, C#, C++, Java, Unity"
+stack="Groovy, Ruby, Rails, Grails, MySQL, Mongo, Objective-C, C#, C++, Java, Unity"
 [[companies.positions]]
 title="Lead Integrations Engineer"
 tenure.start="2014"
@@ -99,7 +99,7 @@ Joined Skillz pre-launch as the 5th engineer and played a crucial part in buildi
 name="Selventa"
 link="http://selventa.com/"
 description="Biotech Services"
-stack="Java, Javascript, Python, Spring, JPA, MySQL, Mongo, SVN, Git, Tomcat, JSF, ExtJS"
+stack="Java, Javascript, Python, Spring, JPA, MySQL, Mongo, Tomcat, JSF, ExtJS"
 [[companies.positions]]
 title="Platform Developer"
 tenure.start="2010"
@@ -114,7 +114,7 @@ Led front-end development on a new platform.
 name="Boston Financial Data Systems"
 link="http://www.bostonfinancial.com//"
 description="Financial Services"
-stack="Java, Microsoft SQL Server, JSP, SVN, Tomcat, Spring MVC"
+stack="Java, Microsoft SQL Server, JSP, Tomcat, Spring MVC"
 [[companies.positions]]
 title="Software Developer"
 tenure.start="2007"
