@@ -96,6 +96,7 @@ Joined Skillz pre-launch as the 5th engineer and played a crucial part in buildi
 """
 
 [[companies]]
+truncatable=true
 name="Selventa"
 link="http://selventa.com/"
 description="Biotech Services"
@@ -104,13 +105,13 @@ stack="Java, Javascript, Python, Spring, JPA, MySQL, Mongo, Tomcat, JSF, ExtJS"
 title="Platform Developer"
 tenure.start="2010"
 tenure.close="2013"
-truncatable=true
 description="""
 Enhanced and developed a biological data analysis platform for major pharmaceutical companies and in-house researchers.
 Led front-end development on a new platform.
 """
 
 [[companies]]
+truncatable=true
 name="Boston Financial Data Systems"
 link="http://www.bostonfinancial.com//"
 description="Financial Services"
@@ -119,7 +120,6 @@ stack="Java, Microsoft SQL Server, JSP, Tomcat, Spring MVC"
 title="Software Developer"
 tenure.start="2007"
 tenure.close="2010"
-truncatable=true
 description="""
 Collaborated across departments to design and deliver solutions, independently conducting user research, defining
 requirements, and scoping projects.

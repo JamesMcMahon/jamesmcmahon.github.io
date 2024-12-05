@@ -4,6 +4,7 @@
         <h2>Experience</h2>
         <div class="experience">
             {{- range site.Data.experience.companies }}
+            <div{{ with .truncatable}} class="truncatable"{{ end }}>
                 <h1><a href="{{ .link }}">{{ .name }}</a></h1>
                 <h2>{{ .description }}</h2>
                 <h3>Stack: {{ .stack }}</h3>
@@ -12,10 +13,11 @@
                     {{- with .tenure }}
                         <h5>{{ .start }} - {{ .close }}</h5>
                     {{- end }}
-                        <div{{ with .truncatable}} class="truncatable"{{ end }}>
-                            {{ partial "functions/fixed-markdownify" .description | safeHTML }}
-                        </div>
+                    <div class="position-description">
+                        {{ partial "functions/fixed-markdownify" .description | safeHTML }}
+                    </div>
                 {{- end }}
+            </div>
             {{- end }}
         </div>
     </div>
