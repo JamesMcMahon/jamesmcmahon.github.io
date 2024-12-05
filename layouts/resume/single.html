@@ -6,7 +6,7 @@
             {{- range site.Data.experience.companies }}
                 <h1><a href="{{ .link }}">{{ .name }}</a></h1>
                 <h2>{{ .description }}</h2>
-                <h3>Stack / Tools: {{ .stack }}</h3>
+                <h3>Stack: {{ .stack }}</h3>
                 {{- range .positions }}
                     <h4>{{ .title }}</h4>
                     {{- with .tenure }}
