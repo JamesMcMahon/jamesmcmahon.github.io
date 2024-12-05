@@ -219,28 +219,16 @@ a:hover {
     margin: 0;
 }
 
-/* Position and Tenure positioning */
+.experience .position-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Position and Tenure */
 .experience h4, .experience h5 {
-    margin: 0;
-    display: inline-block;
-    vertical-align: top;
-}
-
-/* Position */
-.experience h4 {
     margin-top: 0.25rem;
-    font-size: 1.1rem;
     margin-bottom: 0;
-    width: 49%;
-}
-
-/* Tenure */
-.experience h5 {
-    margin-top: 0.25rem;
     font-size: 1.1rem;
-    margin-bottom: 0;
-    text-align: right;
-    width: 50%;
 }
 
 .experience p {

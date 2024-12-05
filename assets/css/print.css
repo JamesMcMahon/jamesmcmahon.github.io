@@ -53,10 +53,13 @@ nav {
     padding-bottom: 1.5rem;
 }
 
-/* Position and Tenure positioning */
 .experience h1, .experience h2, .experience h4, .experience h5 {
     margin: 0;
-    display: inline-block;
+}
+
+.experience .company-header {
+    display: flex;
+    justify-content: flex-start;
 }
 
 /* Company */
@@ -74,6 +77,8 @@ nav {
     font-weight: 300;
     margin-top: 0.8rem;
     margin-bottom: 0;
+    margin-left: 0.5rem;
+    align-self: center;
 }
 
 .experience h2::before {
@@ -87,17 +92,14 @@ nav {
     margin: 0;
 }
 
-/* Position */
-.experience h4 {
-    font-size: 1rem;
-    width: 49%;
+.experience .position-header {
+    display: flex;
+    justify-content: space-between;
 }
 
-/* Tenure */
-.experience h5 {
+/* Position and Tenure */
+.experience h4, .experience h5 {
     font-size: 1rem;
-    text-align: right;
-    width: 50%;
 }
 
 .truncatable .position-description {
