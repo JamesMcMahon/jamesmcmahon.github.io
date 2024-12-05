@@ -59,14 +59,15 @@ Led teams to deliver business-critical products using XP practices (TDD, Pair Pr
 """
 
 [[companies]]
+truncatable=true
 name="Lucid Dream Party"
 link="http://luciddream.party/"
-description="Game Company"
+description="Indie Game Company"
 stack="C#, Unity"
 [[companies.positions]]
-title="Indie Game Developer"
+title="Game Developer"
 tenure.start="2015"
-tenure.close="Present"
+tenure.close="2016"
 description="""
 Developed and released an original multi-platform mobile game, [I, Falling Robot](http://ifallingrobot.com).
 """
