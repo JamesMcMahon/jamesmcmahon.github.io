@@ -8,11 +8,11 @@ title="Staff Software Engineer"
 tenure.start="2021"
 tenure.close="Present"
 description= """
-Responsible for ensuring successful delivery across teams and portfolios while elevating engineering practices through mentorship and hands-on collaboration.
-- Guided engineers of all experience levels, fostering growth and collaboration among both client and colleague teams.
-- Scoped and defined engineering engagement plans for new consulting work.
-- Acted as a "flame jumper," swiftly stabilizing and turning around struggling engineering teams in a critical program for a major US bank.
-- Led client-facing workshops, including a novel workshop and tooling to empower a major pharmaceutical company to improve delivery using DORA metrics.
+Responsible for driving engineering strategy and ensuring successful delivery across teams and portfolios while elevating engineering practices through mentorship and hands-on collaboration.
+- Mentored engineers of all experience levels, fostering growth, collaboration, and the adoption of modern development and delivery practices.
+- Scoped and defined engineering engagement plans for new consulting initiatives, aligning technical strategies with client goals.
+- Led teams through challenging and ambiguous situations, including acting as a "flame jumper" to stabilize and turn around struggling engineering teams in a critical program for a major US bank.
+- Facilitated customer workshops, including a delivery strategy session for a major pharmaceutical company, leading to building tooling to improve delivery using DORA metrics.
 """
 
 [[companies]]
@@ -53,7 +53,7 @@ tenure.close="2018"
 description="""
 Led teams to deliver business-critical products using XP practices (TDD, Pair Programming, CI/CD) in a highly collaborative environment.
 - Guided cross-functional teams (PM, Design, Engineering) to rapidly develop and iterate on lean MVPs, deploying updates multiple times daily.
-- Enabled client developers to adopt modern development and delivery practices by teaching and collaborating alongside them, fostering organizational change at scale.
+- Enabled developers to adopt modern development and delivery practices by teaching and collaborating alongside them, fostering organizational change at scale.
 - Delivered high-quality products at pace by managing team backlogs and aligning with stakeholders on priorities, deadlines, and deliverables.
 - Modernized legacy monolithic applications into scalable, event-driven microservices, improving performance and maintainability.
 """
