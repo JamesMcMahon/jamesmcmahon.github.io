@@ -102,8 +102,25 @@ nav {
     font-size: 1rem;
 }
 
-.truncatable .position-description {
+.truncatable {
+    display: flex;
+}
+
+.truncatable .position-header {
+    flex: 1;
+}
+
+/* Companies details to truncate */
+.truncatable h3, .truncatable .position-description {
     display: none;
+}
+
+.truncatable h4::before {
+    content: ", ";
+}
+
+.truncatable h1, .truncatable h2, .truncatable h4, .truncatable h5 {
+    margin-top: 0.8rem;
 }
 
 .resume-footer {
