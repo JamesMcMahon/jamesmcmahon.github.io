@@ -18,7 +18,7 @@ Responsible for driving engineering strategy and ensuring successful delivery ac
 [[companies]]
 name="Focused Labs"
 link="https://focused.io"
-description="Startup Software Consultancy"
+description="Software Consultancy Startup"
 stack="Typescript, Kotlin, Spring Boot, Firebase, Vue.js, React, Kubernetes, CDK"
 [[companies.positions]]
 title="Software Developer Extraordinaire"
@@ -99,7 +99,7 @@ Joined Skillz pre-launch as the 5th engineer and played a crucial part in buildi
 truncatable=true
 name="Selventa"
 link="http://selventa.com/"
-description="Biotech Services"
+description="Biotech Services Startup"
 stack="Java, Javascript, Python, Spring, JPA, MySQL, Mongo, Tomcat, JSF, ExtJS"
 [[companies.positions]]
 title="Platform Developer"
