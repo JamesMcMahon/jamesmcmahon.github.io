@@ -27,7 +27,7 @@ tenure.start="2019"
 tenure.close="2021"
 description="""
 First senior hire at a boutique software consultancy, instrumental in shaping development practices, culture, and team growth.
-- Established and grew the core internal development team with the founders, fostering a culture of continuous improvement and learning.
+- Established and grew the core development team with the founders, fostering a culture of continuous improvement and learning.
 - Partnered with startups to deliver software core to their business, acting as both a CTO-level advisor and hands-on implementor.
 - Developed configuration-as-code Kubernetes infrastructure for clients, operating and scaling business-critical systems while supporting partner integrations.
 """
