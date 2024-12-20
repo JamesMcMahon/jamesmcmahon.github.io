@@ -9,10 +9,10 @@ tenure.start="2021"
 tenure.close="Present"
 description= """
 Responsible for driving engineering strategy and ensuring successful delivery across teams and portfolios while elevating engineering practices through mentorship and hands-on collaboration.
-- Mentored engineers of all experience levels, fostering growth, collaboration, and the adoption of modern development and delivery practices.
+- Upskilled and led portfolio teams in frontend patterns and best practices, emphasizing both testing and implementation, to enable rapid delivery within a large shared codebase.
 - Scoped and defined engineering engagement plans for new consulting initiatives, aligning technical strategies with client goals.
 - Led teams through challenging and ambiguous situations, including acting as a "flame jumper" to stabilize and turn around struggling engineering teams in a critical program for a major US bank.
-- Facilitated customer workshops, including a delivery strategy session for a major pharmaceutical company, leading to building tooling to improve delivery using DORA metrics.
+- Facilitated customer workshops, including a delivery strategy session for a major pharmaceutical company, which led to the rapid delivery of a DORA metrics dashboard using AI design tools and Next.js.
 - Managed diverse infrastructure across projects, including a flagship financial application in Azure, high-throughput batch processing with Knative and Kafka, and modernizing existing systems to configuration-as-code using CDK and FluxCD.
 """
 
@@ -27,8 +27,8 @@ tenure.start="2019"
 tenure.close="2021"
 description="""
 First senior hire at a boutique software consultancy, instrumental in shaping development practices, culture, and team growth.
-- Established and grew the core development team with the founders, fostering a culture of continuous improvement and learning.
 - Partnered with startups to deliver software core to their business, acting as both a CTO-level advisor and hands-on implementor.
+- Efficiently delivered lean, iterative products using a variety of technologies, including Vue.js, React, and GraphQL.
 - Developed configuration-as-code Kubernetes infrastructure for clients, operating and scaling business-critical systems while supporting partner integrations.
 """
 
@@ -83,7 +83,6 @@ tenure.start="2014"
 tenure.close="2015"
 description="""
 Defined and led the customer-facing integrations engineer role, creating customer facing business processes.
-- Served as the primary technical contact for high-profile partners, including Glu and Zynga.
 - Integrated and launched numerous games on the Skillz platform, driving critical partner success.
 """
 [[companies.positions]]
