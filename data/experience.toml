@@ -2,7 +2,7 @@
 name="VMware Tanzu Labs"
 link="https://www.vmware.com/solutions/app-platform/tanzu-labs"
 description="Software Consultancy"
-stack="Java, Typescript, Spring Boot, Next.js, Python, Azure, AWS, Kubernetes, CDK, FluxCD, Knative"
+stack="Java, Typescript, Spring Boot, Next.js, React, Python, Azure, AWS, Kubernetes, CDK, FluxCD, Knative"
 [[companies.positions]]
 title="Staff Software Engineer"
 tenure.start="2021"
